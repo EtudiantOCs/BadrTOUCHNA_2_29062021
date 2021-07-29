@@ -1,4 +1,4 @@
-/* Body and general settings */
+/* Body and general parameter */
 body {
     font-size: 16px;
     margin: auto;
@@ -13,11 +13,11 @@ body {
 
 h1, h2 {
     font-size: 1.5em;
-}
+} 
 
 a {
     text-decoration: none;
-    color: inherit;
+    color:inherit;
 }
 
 /* hover effects */
@@ -36,25 +36,25 @@ a {
     width: 100%;
 }
 
-#logo {
-    width: calc(100% - 550px);
-    order: 1;
-}
+    #logo {
+        width: calc(100% - 550px);
+        order:1;
+    }
 
-nav {
-    display: flex;
-    justify-content: space-around;
-    width: 500px;
-    order: 2;
-}
+    nav {
+        display: flex;
+        justify-content: space-around;
+        width: 500px;
+        order: 2;
+    }
 
-#subscription {
-    font-weight: 800;
-    margin: 0 20px 0 20px;
-    order: 3;
-    width: 50px;
-    color: #0065FC;
-}
+    #subscription {
+        font-weight: 800;
+        margin: 0 20px 0 20px;
+        order:3;
+        width: 50px;
+        color: #0065FC;
+    }
 
 
 header div a {
@@ -68,7 +68,7 @@ header nav a:active, header nav div :nth-child(1) {
     padding-top: 43px;
 }
 
-header nav div :nth-child(1) {
+header nav div :nth-child(1)  {
     color: #0065FC;
 }
 
@@ -100,7 +100,7 @@ header h1 {
     font-size: 1em;
     margin-left: 10px;
     height: 100%;
-    border-width: 0;
+    border-width:0;
 }
 
 #header-search span i {
@@ -111,7 +111,7 @@ header h1 {
 }
 
 header button {
-    background-color: #0a5ff4;
+    background-color: #0a5ff4 ;
     border: none;
     height: 50px;
     min-width: 8%;
@@ -138,17 +138,17 @@ header button {
     width: 70%;
 }
 
-    #filters i {
-        color: #0a5ff4;
-        background-color: #ddeafd;
-        width: 2.2em;
-        height: 2.2em;
-        border-radius: 1.7em;
-        text-align: center;
-        vertical-align: middle;
-        display: table-cell;
-        font-size: 1.5em;
-    }
+#filters i {
+    color:#0a5ff4;
+    background-color: #ddeafd;
+    width: 2.2em;
+    height: 2.2em;
+    border-radius: 1.7em;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 1.5em;
+}
 
 .filter-container {
     vertical-align: middle;
@@ -157,16 +157,16 @@ header button {
 }
 
 .filter-content {
-    font-weight: bold;
+    font-weight:bold;
     display: flex;
     border: 0.15em #d8d8d8 solid;
     border-radius: 2.4em;
     align-items: center;
 }
 
-    .filter-content a {
-        padding: 0;
-    }
+.filter-content a {
+    padding: 0;
+}
 
 #filters p {
     margin-left: 10px;
@@ -178,25 +178,25 @@ header button {
     display: flex;
 }
 
-    #result-information p {
-        font-weight: 400;
-        font-size: 0.9em;
-    }
+#result-information p {
+    font-weight: 400;
+    font-size: 0.9em;
+}
 
-    #result-information span {
-        display: inline-block;
-        width: 25px;
-        height: 24px;
-        border: 0.08em #d8d8d8 solid;
-        border-radius: 2.4em;
-        text-align: center;
-        margin: 10px 10px 0 0;
-    }
+#result-information span {
+    display: inline-block;
+    width: 25px;
+    height: 24px;
+    border: 0.08em #d8d8d8 solid;
+    border-radius: 2.4em;
+    text-align: center;
+    margin: 10px 10px 0 0;
+}
 
-        #result-information span i {
-            font-size: 0.8em;
-            color: #0a5ff4;
-        }
+#result-information span i {
+    font-size: 0.8em;
+    color:#0a5ff4;
+}
 
 
 /*-- Main --*/
@@ -210,24 +210,24 @@ header button {
     margin: 10px 0 10px 0;
 }
 
-    #accomodations section {
-        background-color: #f2f2f2;
-        width: 66%;
-        border-radius: 1em;
-        margin-right: 40px;
-        padding-left: 30px;
-    }
+#accomodations section {
+    background-color: #f2f2f2;
+    width: 66%;
+    border-radius: 1em;
+    margin-right: 40px;
+    padding-left: 30px;
+}
 
-    #accomodations aside {
-        background-color: #f2f2f2;
-        width: calc(34% - 40px);
-        border-radius: 1em;
-        padding-left: 30px;
-    }
+#accomodations aside {
+    background-color: #f2f2f2;
+    width: calc(34% - 40px);
+    border-radius: 1em;
+    padding-left: 30px;
+}
 
 #accomodations-content {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;   
     justify-content: space-around;
 }
 
@@ -243,13 +243,13 @@ header button {
     font-size: 0.8em;
     text-decoration: none;
     box-shadow: 1px 1px 6px #9999;
-    margin: 0 30px 30px 0;
+    margin:0 30px 30px 0;
     text-align: center;
 }
 
-    .accomodation-card h3, .accomodation-card p, .accomodation-card img {
-        margin: 0 0 5px 0;
-    }
+.accomodation-card h3, .accomodation-card p, .accomodation-card img {
+    margin: 0 0 5px 0;
+}
 
 .accomodation-card-information {
     padding-left: 15px;
@@ -273,12 +273,12 @@ header button {
     margin-right: 10px;
 }
 
-    #accomodations-popular-title i {
-        position: relative;
-        top: 27px;
-        font-size: 1.25em;
-        padding-right: 40px;
-    }
+#accomodations-popular-title i {
+    position: relative;
+    top: 27px;
+    font-size: 1.25em;
+    padding-right: 40px;
+}
 
 #accomodations-popular-content .accomodation-card {
     width: 90%;
@@ -311,7 +311,7 @@ header button {
 /*-- rating stars color --*/
 
 .checked {
-    color: #0065FC;
+    color:#0065FC;
 }
 
 .unchecked {
@@ -333,7 +333,7 @@ header button {
 
 .activities-content-stair-container {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     width: calc(26% - 40px);
     margin: 0 0 0 40px;
 }
@@ -362,9 +362,9 @@ header button {
     object-fit: cover;
 }
 
-    .activities-content-article:nth-child(1) {
-        margin-bottom: 40px;
-    }
+.activities-content-article:nth-child(1) {
+    margin-bottom: 40px;
+}
 
 .activities-content-stair-container article {
     background-color: white;
@@ -378,13 +378,13 @@ header button {
     object-fit: cover;
 }
 
-    .activities-content-stair-container article img {
-        width: 100%;
-        height: 140px;
-        border-top-right-radius: 1.58em;
-        border-top-left-radius: 1.5em;
-        object-fit: cover;
-    }
+.activities-content-stair-container article img {
+    width: 100%;
+    height: 140px;
+    border-top-right-radius: 1.58em;
+    border-top-left-radius: 1.5em;
+    object-fit: cover;
+}
 
 .activities-content-article img {
     width: 100%;
@@ -398,14 +398,14 @@ header button {
 
 footer {
     display: flex;
-    justify-content: left;
+    justify-content:left;
     background-color: #f2f2f2;
     padding-top: 40px;
 }
 
-    footer section {
-        text-align: left;
-    }
+footer section {
+    text-align: left;
+}
 
 #about, #our-accomodations {
     margin-right: 20%;
@@ -432,7 +432,8 @@ footer li {
 /***** Smartphone ******/
 
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 480px)
+{
     body {
         width: 100%;
         margin: 0;
@@ -466,27 +467,27 @@ footer li {
         position: absolute;
         width: 100%;
         left: 0;
-        top: 100px;
+        top:100px;
     }
 
-        header nav a {
-            width: 50%;
-            text-align: center;
-            margin-right: 0;
-        }
+    header nav a {
+        width: 50%;
+        text-align: center;
+        margin-right: 0;
+    }
 
     header div {
         display: flex;
     }
 
-    header nav div :nth-child(1), header nav a:active {
+    header nav div :nth-child(1), header nav a:active  {
         border-top: none;
         border-bottom: 3px solid #0065FC;
         padding-bottom: 20px;
         box-sizing: content-box;
     }
 
-    header nav div :nth-child(2) {
+    header nav div :nth-child(2)  {
         border-top: none;
         border-bottom: 3px solid #e6e6e6;
         padding-bottom: 20px;
@@ -517,7 +518,6 @@ footer li {
         top: -4px;
         height: 50px;
     }
-
     #accomodations-search-input-button {
         display: none;
     }
@@ -528,10 +528,10 @@ footer li {
         width: 100%;
     }
 
-        #filters h3 {
-            padding: 0 20px 0 0;
-            margin-bottom: 5px;
-        }
+    #filters h3 {
+        padding: 0 20px 0 0;
+        margin-bottom: 5px;
+    }
 
     .filter-container {
         vertical-align: middle;
@@ -561,21 +561,21 @@ footer li {
         flex-direction: column;
     }
 
-        #accomodations section {
-            background-color: white;
-            order: 2;
-            width: unset;
-            margin: 0;
-            padding: 0;
-        }
-
-        #accomodations aside {
-            order: 1;
-            border-radius: 0em;
-            width: 100%;
-            margin: 0 -24px 0 -24px;
-            padding: 0 24px 0 24px;
-        }
+    #accomodations section {
+        background-color:white;
+        order: 2;
+        width:unset;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #accomodations aside {
+        order:1;
+        border-radius: 0em;
+        width: 100%;
+        margin: 0 -24px 0 -24px;
+        padding: 0 24px 0 24px;
+    }
 
     .accomodation-card {
         width: 100%;
@@ -648,10 +648,10 @@ footer li {
         display: block;
     }
 
-        footer section {
-            text-align: left;
-            padding-bottom: 10px;
-        }
+    footer section {
+        text-align: left;
+        padding-bottom: 10px;
+    }
 
     #about, #our-accomodations {
         padding: 0 0 10px 0;
@@ -662,7 +662,7 @@ footer li {
 /******** Tablet ********/
 
 
-@media (min-width: 480px) and (max-width: 769px) {
+@media (min-width: 480px) and (max-width: 769px){
     body {
         width: 100%;
         margin: 0;
@@ -696,27 +696,27 @@ footer li {
         position: absolute;
         width: 100%;
         left: 0;
-        top: 100px;
+        top:100px;
     }
 
-        header nav a {
-            width: 50%;
-            text-align: center;
-            margin-right: 0;
-        }
+    header nav a {
+        width: 50%;
+        text-align: center;
+        margin-right: 0;
+    }
 
     header div {
         display: flex;
     }
 
-    header nav div :nth-child(1), header nav a:active {
+    header nav div :nth-child(1), header nav a:active  {
         border-top: none;
         border-bottom: 3px solid #0065FC;
         padding-bottom: 20px;
         box-sizing: content-box;
     }
 
-    header nav div :nth-child(2) {
+    header nav div :nth-child(2)  {
         border-top: none;
         border-bottom: 3px solid #e6e6e6;
         padding-bottom: 20px;
@@ -747,7 +747,6 @@ footer li {
         top: -4px;
         height: 50px;
     }
-
     #accomodations-search-input-button {
         display: none;
     }
@@ -758,10 +757,10 @@ footer li {
         width: 100%;
     }
 
-        #filters h3 {
-            padding: 0 20px 0 0;
-            margin-bottom: 5px;
-        }
+    #filters h3 {
+        padding: 0 20px 0 0;
+        margin-bottom: 5px;
+    }
 
     .filter-container {
         vertical-align: middle;
@@ -791,21 +790,21 @@ footer li {
         flex-direction: column;
     }
 
-        #accomodations section {
-            background-color: white;
-            order: 2;
-            width: unset;
-            margin: 0;
-            padding: 0;
-        }
-
-        #accomodations aside {
-            order: 1;
-            border-radius: 0em;
-            width: 100%;
-            margin: 0 -24px 0 -24px;
-            padding: 0 24px 0 24px;
-        }
+    #accomodations section {
+        background-color:white;
+        order: 2;
+        width:unset;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #accomodations aside {
+        order:1;
+        border-radius: 0em;
+        width: 100%;
+        margin: 0 -24px 0 -24px;
+        padding: 0 24px 0 24px;
+    }
 
     .accomodation-card {
         width: 100%;
@@ -879,10 +878,10 @@ footer li {
         display: block;
     }
 
-        footer section {
-            text-align: left;
-            padding-bottom: 10px;
-        }
+    footer section {
+        text-align: left;
+        padding-bottom: 10px;
+    }
 
     #about, #our-accomodations {
         padding: 0 0 10px 0;
@@ -922,13 +921,13 @@ footer li {
     #activities {
         padding: 0;
     }
-
+    
     #activities-content {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-
+    
     #first-full-height-activity-container, #second-full-height-activity-container {
         background-color: white;
         width: calc(35% - 60px);
@@ -940,19 +939,19 @@ footer li {
         margin-bottom: 30px;
         object-fit: cover;
     }
-
+    
     #card-1, #card-2, #card-3, #card-4 {
         margin: 0px 0 0 30px;
     }
-
+    
     #second-full-height-activity-container {
         margin: 0;
     }
-
+    
     #activities img {
         height: 140px;
     }
-
+    
     .activities-content-stair-container {
         display: flex;
         flex-direction: row;
@@ -960,7 +959,7 @@ footer li {
         width: 67%;
         margin: 0 0 0 0px;
     }
-
+    
     #activities h3 {
         font-size: 1em;
     }
@@ -979,25 +978,26 @@ footer li {
     }
 
     footer {
-        justify-content: space-between;
+        justify-content:space-between;
         padding: 40px 40px;
     }
-
+    
     #about, #our-accomodations {
         padding-right: 0px;
         margin-right: 10%;
     }
-
-    footer h3, footer ul {
+    
+    footer h3, footer ul{
         padding: 0;
     }
+
 }
 
 
 /* Small screen 1025-1366 */
 
 @media (min-width: 1025px) and (max-width: 1366px) {
-
+    
     .accomodation-card {
         min-width: 190px;
     }
@@ -1005,26 +1005,26 @@ footer li {
     #accomodations-popular-content .accomodation-card {
         min-width: 250px;
     }
-
+    
     #accomodations-popular-content div {
         padding: 10px 15px;
     }
-
+    
     #accomodations-popular-content p {
         margin: 10px 0 10px 0;
     }
 
     footer {
-        justify-content: space-between;
+        justify-content:space-between;
         padding: 40px 40px;
     }
-
+    
     #about, #our-accomodations {
         padding-right: 0px;
         margin-right: 10%;
     }
-
-    footer h3, footer ul {
+    
+    footer h3, footer ul{
         padding: 0;
     }
 }
