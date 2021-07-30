@@ -666,9 +666,11 @@ button {
 
 .activity__card {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    background-color: var(--color-white);
     border-radius: 1.5rem;
-    box-shadow: 2px 2px 6px #e6e6e6;
+    border: 0px solid var(--color-white);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
     transition-duration: 0.1s;
 }
 
