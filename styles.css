@@ -1,11 +1,11 @@
-/* Typography */
+    /* Typography */
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
 
 
-/* Colors */
+    /* Colors */
 
-:root {
+    :root {
     --color-blue: #0065FC;
     --color-light-blue: #DEEBFF;
     --color-black: #000000;
@@ -15,15 +15,15 @@
 }
 
 
-/* General class */
+    /* General class */
 
-* {
+    * {
     margin: 0px;
     padding: 0px;
     list-style: none;
 }
 
-body {
+    body {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 1rem;
@@ -31,49 +31,49 @@ body {
     color: var(--color-black);
 }
 
-h1 {
+    h1 {
     font-size: 1.25rem;
     font-weight: 600;
     line-height: 1.4;
 }
 
-h2 {
+    h2 {
     font-size: 1.25rem;
     font-weight: 600;
     line-height: 1.4;
 }
 
-h3 {
+    h3 {
     font-size: 1.125rem;
     font-weight: 600;
     line-height: 1.2;
 }
 
-a {
+    a {
     color: var(--color-black);
     text-decoration: none;
     cursor: pointer;
 }
 
-button {
+    button {
     cursor: pointer;
 }
 
-.fas {
+    .fas {
     font-size: 1.25rem;
     color: var(--color-black);
 }
 
-.nav__section,
-.search__section,
-.hosting__section,
-.activity__section,
-.footer__section {
+    .nav__section,
+    .search__section,
+    .hosting__section,
+    .activity__section,
+    .footer__section {
     padding: 0rem 2.5vw;
     width: 95vw;
 }
 
-@media screen and (max-width: 768px) {
+    @media screen and (max-width: 768px) {
 
     .search__section,
     .hosting__section,
@@ -124,7 +124,7 @@ button {
     color: var(--color-blue);
 }
 
-@media screen and (max-width: 768px) {
+    @media screen and (max-width: 768px) {
     .nav__section {
         margin-bottom: 1rem;
         padding: 0rem 0vw;
@@ -424,28 +424,28 @@ button {
 
     /* Hosting */
 
-.hosting__section {
+    .hosting__section {
     margin-bottom: 3rem;
 }
 
-.hosting__layout {
+    .hosting__layout {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 2.5vw;
 }
 
-.hosting__wrapper {
+    .hosting__wrapper {
     grid-area: 1 / 1 / 2 / 3;
     padding: 2rem 2.5vw;
     background-color: var(--color-gray);
     border-radius: 1.5rem;
 }
 
-.hosting__header {
+    .hosting__header {
     margin-bottom: 2rem;
 }
 
-.hosting__cards {
+    .hosting__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -453,7 +453,7 @@ button {
     grid-row-gap: 2rem;
 }
 
-.hosting__card {
+    .hosting__card {
     display: flex;
     flex-direction: column;
     background-color: var(--color-white);
@@ -467,79 +467,79 @@ button {
         transform: scale(1.01);
     }
 
-.hosting__card__img {
+    .hosting__card__img {
     width: 100%;
     height: 7rem;
     object-fit: cover;
     border-radius: 1.5rem 1.5rem 0rem 0rem;
 }
 
-.hosting__card__main {
+    .hosting__card__main {
     display: flex;
     flex-direction: column;
     margin: 0.5rem 1rem;
 }
 
-.hosting__card__main__title,
-.hosting__card__main__description {
+    .hosting__card__main__title,
+    .hosting__card__main__description {
     margin-bottom: 0.5rem;
 }
 
-.hosting__card__main__price {
+    .hosting__card__main__price {
     font-weight: 600;
 }
 
-.fa-star {
+    .fa-star {
     font-size: 0.75rem;
 }
 
-.fa-star--activate {
+    .fa-star--activate {
     color: var(--color-blue);
 }
 
-.fa-star--deactivate {
+    .fa-star--deactivate {
     color: var(--color-gray);
 }
 
-.hosting__view-more {
+    .hosting__view-more {
     margin-top: 3rem;
 }
 
-.popular__wrapper {
+    .popular__wrapper {
     grid-area: 1 / 3 / 2 / 4;
     padding: 2rem 2.5vw 2rem 2.5vw;
     background-color: var(--color-gray);
     border-radius: 1.5rem;
 }
 
-.popular__header {
+    .popular__header {
     display: grid;
     grid-template-columns: 1fr 1.25rem;
     margin-bottom: 2rem;
 }
 
-.popular__header__title {
+    .popular__header__title {
     margin-bottom: 0px;
 }
 
-.popular__header__wrapper-icon {
+    .popular__header__wrapper-icon {
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
 }
 
-.fa-chart-line {
+    .fa-chart-line {
     font-size: 1.25rem;
 }
 
-.popular__cards {
+    .popular__cards {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-row-gap: 2rem;
 }
 
-.popular__card {
+    .popular__card {
     display: flex;
     flex-direction: row;
     background-color: var(--color-white);
@@ -553,40 +553,40 @@ button {
         transform: scale(1.01);
     }
 
-.popular__card__img {
+    .popular__card__img {
     width: 9vw;
     height: 9rem;
     object-fit: cover;
     border-radius: 1.5rem 0rem 0rem 1.5rem;
 }
 
-.popular__card__main {
+    .popular__card__main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 0.5rem 1rem;
 }
 
-.popular__card__main__title {
+    .popular__card__main__title {
     margin-bottom: 0.5rem;
 }
 
-.popular__card__main__description {
+    .popular__card__main__description {
     height: 3.75rem;
 }
 
-.popular__card__main__price {
+    .popular__card__main__price {
     font-weight: 600;
 }
 
-@media screen and (max-width: 1338px) {
+    @media screen and (max-width: 1338px) {
     .hosting__main__cards {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
     }
 }
 
-@media screen and (max-width: 1230px) {
+    @media screen and (max-width: 1230px) {
     .hosting__layout {
         display: flex;
         flex-direction: column-reverse;
@@ -621,7 +621,7 @@ button {
     }
 }
 
-@media screen and (max-width: 768px) {
+    @media screen and (max-width: 768px) {
     .popular__wrapper {
         margin-left: -5vw;
         width: 95vw;
@@ -636,7 +636,7 @@ button {
     }
 }
 
-@media screen and (max-width: 480px) {
+    @media screen and (max-width: 480px) {
     .hosting__cards {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(6, 1fr);
@@ -646,17 +646,17 @@ button {
 }
 
 
-/* Activity */
+    /* Activity */
 
-.activity__section {
+    .activity__section {
     margin-bottom: 3rem;
 }
 
-.activity__header {
+    .activity__header {
     margin-bottom: 2rem;
 }
 
-.activity__cards {
+    .activity__cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -664,7 +664,7 @@ button {
     grid-row-gap: 2rem;
 }
 
-.activity__card {
+    .activity__card {
     display: flex;
     flex-direction: column;
     background-color: var(--color-white);
@@ -674,35 +674,35 @@ button {
     transition-duration: 0.1s;
 }
 
-.activity__card:hover {
+    .activity__card:hover {
         transform: scale(1.01);
 }
 
-.activity__card--1 {
+    .activity__card--1 {
     grid-area: 1 / 1 / 3 / 2;
 }
 
-.activity__card--2 {
+    .activity__card--2 {
     grid-area: 1 / 2 / 2 / 3;
 }
 
-.activity__card--3 {
+    .activity__card--3 {
     grid-area: 2 / 2 / 3 / 3;
 }
 
-.activity__card--4 {
+    .activity__card--4 {
     grid-area: 1 / 3 / 3 / 4;
 }
 
-.activity__card--5 {
+    .activity__card--5 {
     grid-area: 1 / 4 / 2 / 5;
 }
 
-.activity__card--6 {
+    .activity__card--6 {
     grid-area: 2 / 4 / 3 / 5;
 }
 
-.activity__card__img {
+    .activity__card__img {
     width: 100%;
     height: 11rem;
     object-fit: cover;
@@ -710,15 +710,15 @@ button {
     border-top-right-radius: 1rem;
 }
 
-.activity__card__img--high {
+    .activity__card__img--high {
     height: 27.5rem;
 }
 
-.activity__card__title {
+    .activity__card__title {
     padding: 1rem;
 }
 
-@media screen and (max-width: 1264px) {
+    @media screen and (max-width: 1264px) {
     .activity__cards {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -753,7 +753,7 @@ button {
     }
 }
 
-@media screen and (max-width: 500px) {
+    @media screen and (max-width: 500px) {
     .activity__cards {
         display: flex;
         flex-direction: column;
@@ -765,23 +765,23 @@ button {
 }
 
 
-/* Footer */
+    /* Footer */
 
-.footer__section {
+    .footer__section {
     background-color: var(--color-gray);
 }
 
-.footer__wrapper {
+    .footer__wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 3rem 0rem;
 }
 
-.footer__column__title {
+    .footer__column__title {
     padding-bottom: 1rem;
 }
 
-.footer__column__item {
+    .footer__column__item {
     padding-bottom: 1rem;
 }
 
@@ -789,7 +789,7 @@ button {
         transform: scale(1.01);
     }
 
-@media screen and (max-width: 1080px) {
+    @media screen and (max-width: 1080px) {
     .footer__wrapper {
         display: flex;
         flex-direction: column;
