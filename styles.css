@@ -441,6 +441,10 @@
     border-radius: 1.5rem;
 }
 
+    .hosting__view-more:hover {
+    transform: scale(1.01);
+}
+
     .hosting__header {
     margin-bottom: 2rem;
 }
