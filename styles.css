@@ -118,7 +118,11 @@
     color: var(--color-blue);
     border-top: 2px solid var(--color-blue);
 }
-
+.nav__link--bold:hover {
+    padding-top: 48px;
+    color: var(--color-blue);
+    border-top: 2px solid var(--color-blue);
+}
     .nav__link--bold {
     font-weight: 600;
     color: var(--color-blue);
