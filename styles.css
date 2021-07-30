@@ -421,7 +421,9 @@ footer li {
     padding-bottom: 15px;
     font-size: 0.9em;
 }
-
+.footer__column__item:hover {
+    transform: scale(1.04);
+}
 
 
 
@@ -886,6 +888,7 @@ footer li {
     #about, #our-accomodations {
         padding: 0 0 10px 0;
     }
+
 }
 
 
